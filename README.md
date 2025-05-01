@@ -103,14 +103,14 @@ Log Output:
 
 📌 Tips Tambahan
 
-    Rebuild semua container:
+Rebuild semua container:
 
 ```bash
 docker compose down -v
 docker compose up -d --build
 ```
 
-    Bersihkan cache konfigurasi Laravel:
+Bersihkan cache konfigurasi Laravel:
 
 ```bash
 docker compose exec app php artisan optimize:clear
