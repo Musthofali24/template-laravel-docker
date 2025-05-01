@@ -23,12 +23,14 @@ Template ini menyediakan lingkungan pengembangan Laravel 11 berbasis **Docker** 
 
 ```bash
 composer create-project laravel/laravel:^11 cmms-app
-cd cmms-app
+cd cmms-ap
+```
 
 2. Salin File Konfigurasi Docker
 
 Pastikan struktur file kamu seperti berikut:
 
+```bash
 cmms-app/
 ├── Dockerfile
 ├── docker-compose.yml
@@ -36,24 +38,29 @@ cmms-app/
 ├── storage/
 │   ├── php.ini
 │   └── app.conf
+```
 
-Jika folder storage/ belum ada, buat manual lalu tambahkan php.ini dan app.conf.
-3. Jalankan Docker
+Jika folder storage/ belum ada, buat manual lalu tambahkan php.ini dan app.conf. 3. Jalankan Docker
 
+```bash
 docker compose up -d --build
+```
 
 4. Akses Aplikasi
-Layanan	URL
-Laravel App	http://localhost:8081
-phpMyAdmin	http://localhost:7001
-Mailpit	http://localhost:8025
+   Layanan URL
+   Laravel App http://localhost:8081
+   phpMyAdmin http://localhost:7001
+   Mailpit http://localhost:8025
 5. Jalankan Artisan Command
 
+```bash
 docker compose exec app php artisan migrate
 docker compose exec app php artisan key:generate
+```
 
 6. Konfigurasi .env Laravel
 
+```bash
 APP_NAME=CMMS
 APP_ENV=local
 APP_KEY=base64:...
@@ -77,6 +84,7 @@ MAIL_MAILER=smtp
 MAIL_HOST=mailpit
 MAIL_PORT=1025
 MAIL_FROM_ADDRESS=no-reply@cmms.local
+```
 
 👷 Service Supervisor
 
@@ -97,12 +105,16 @@ Log Output:
 
     Rebuild semua container:
 
+```bash
 docker compose down -v
 docker compose up -d --build
+```
 
     Bersihkan cache konfigurasi Laravel:
 
+```bash
 docker compose exec app php artisan optimize:clear
+```
 
 🧾 License
 
@@ -112,4 +124,3 @@ MIT License – bebas digunakan dan dimodifikasi untuk kebutuhan proyek pribadi 
 Dibuat dengan ❤️ oleh Ali Musthofa Baharudin
 Program Studi Teknologi Rekayasa Informatika Industri
 Politeknik Manufaktur Bandung – 2025
-```
