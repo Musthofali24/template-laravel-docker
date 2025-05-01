@@ -47,10 +47,9 @@ docker compose up -d --build
 ```
 
 4. Akses Aplikasi
-   Layanan URL
-   Laravel App http://localhost:8081
-   phpMyAdmin http://localhost:7001
-   Mailpit http://localhost:8025
+- Laravel App http://localhost:8081
+- phpMyAdmin http://localhost:7001
+- Mailpit http://localhost:8025
 5. Jalankan Artisan Command
 
 ```bash
