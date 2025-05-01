@@ -22,8 +22,8 @@ Template ini menyediakan lingkungan pengembangan Laravel 11 berbasis **Docker** 
 1. Clone atau Buat Project Laravel
 
 ```bash
-composer create-project laravel/laravel:^11 cmms-app
-cd cmms-ap
+composer create-project laravel/laravel:^11 template-laravel-docker
+cd template-laravel-docker
 ```
 
 2. Salin File Konfigurasi Docker
@@ -31,7 +31,7 @@ cd cmms-ap
 Pastikan struktur file kamu seperti berikut:
 
 ```bash
-cmms-app/
+template-laravel-docker/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── supervisord.conf
@@ -61,7 +61,7 @@ docker compose exec app php artisan key:generate
 6. Konfigurasi .env Laravel
 
 ```bash
-APP_NAME=CMMS
+APP_NAME=TemplateLaravel
 APP_ENV=local
 APP_KEY=base64:...
 APP_DEBUG=true
@@ -70,9 +70,9 @@ APP_URL=http://localhost:8081
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=cmms
+DB_DATABASE=template
 DB_USERNAME=root
-DB_PASSWORD=cmmsapp
+DB_PASSWORD=tempdocker
 
 REDIS_HOST=redis
 
@@ -83,7 +83,7 @@ SESSION_DRIVER=redis
 MAIL_MAILER=smtp
 MAIL_HOST=mailpit
 MAIL_PORT=1025
-MAIL_FROM_ADDRESS=no-reply@cmms.local
+MAIL_FROM_ADDRESS=no-reply@template.local
 ```
 
 👷 Service Supervisor
@@ -108,6 +108,13 @@ docker compose down -v
 docker compose up -d --build
 ```
 
+Lakukan migrate pada Database:
+
+```bash
+docker exec -it <container_name> bash
+php artisan migrate
+```
+
 Bersihkan cache konfigurasi Laravel:
 
 ```bash
@@ -117,8 +124,9 @@ docker compose exec app php artisan optimize:clear
 🧾 License
 
 MIT License – bebas digunakan dan dimodifikasi untuk kebutuhan proyek pribadi maupun komersial.
+
 ✨ Credits
 
-Dibuat dengan ❤️ oleh Ali Musthofa Baharudin <br>
+Dibuat dengan ❤️ oleh Ali Musthofa Baharudin <br><br>
 Program Studi Teknologi Rekayasa Informatika Industri <br>
 Politeknik Manufaktur Bandung – 2025

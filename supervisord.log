@@ -1,0 +1,108 @@
+2025-05-01 08:11:19,643 INFO supervisord started with pid 1
+2025-05-01 08:11:20,646 INFO spawned: 'horizon' with pid 8
+2025-05-01 08:11:20,648 INFO spawned: 'php-fpm' with pid 9
+2025-05-01 08:11:20,649 INFO spawned: 'queue-worker' with pid 10
+2025-05-01 08:11:20,761 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:11:21,764 INFO spawned: 'horizon' with pid 19
+2025-05-01 08:11:21,765 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:11:21,765 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:11:21,875 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:11:23,879 INFO spawned: 'horizon' with pid 22
+2025-05-01 08:11:23,981 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:11:27,739 INFO spawned: 'horizon' with pid 25
+2025-05-01 08:11:27,860 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:11:28,863 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-05-01 08:12:43,779 WARN received SIGQUIT indicating exit request
+2025-05-01 08:12:43,779 INFO waiting for php-fpm, queue-worker to die
+2025-05-01 08:12:43,788 INFO stopped: queue-worker (exit status 0)
+2025-05-01 08:12:43,797 INFO stopped: php-fpm (exit status 0)
+2025-05-01 08:13:19,895 INFO supervisord started with pid 1
+2025-05-01 08:13:20,130 INFO spawned: 'horizon' with pid 7
+2025-05-01 08:13:20,132 INFO spawned: 'php-fpm' with pid 8
+2025-05-01 08:13:20,134 INFO spawned: 'queue-worker' with pid 9
+2025-05-01 08:13:20,263 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:13:21,266 INFO spawned: 'horizon' with pid 18
+2025-05-01 08:13:21,267 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:13:21,267 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:13:21,368 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:13:23,373 INFO spawned: 'horizon' with pid 21
+2025-05-01 08:13:23,472 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:13:26,484 INFO spawned: 'horizon' with pid 24
+2025-05-01 08:13:26,594 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:13:27,606 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-05-01 08:17:38,757 WARN received SIGQUIT indicating exit request
+2025-05-01 08:17:38,758 INFO waiting for php-fpm, queue-worker to die
+2025-05-01 08:17:38,765 INFO stopped: queue-worker (exit status 0)
+2025-05-01 08:17:38,771 INFO stopped: php-fpm (exit status 0)
+2025-05-01 08:17:40,486 INFO supervisord started with pid 1
+2025-05-01 08:17:41,489 INFO spawned: 'horizon' with pid 7
+2025-05-01 08:17:41,492 INFO spawned: 'php-fpm' with pid 8
+2025-05-01 08:17:41,494 INFO spawned: 'queue-worker' with pid 9
+2025-05-01 08:17:41,613 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:17:41,621 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:17:42,625 INFO spawned: 'horizon' with pid 18
+2025-05-01 08:17:42,625 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:17:42,628 INFO spawned: 'queue-worker' with pid 19
+2025-05-01 08:17:42,729 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:17:42,742 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:17:44,748 INFO spawned: 'horizon' with pid 26
+2025-05-01 08:17:44,750 INFO spawned: 'queue-worker' with pid 27
+2025-05-01 08:17:44,857 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:17:44,868 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:17:47,878 INFO spawned: 'horizon' with pid 34
+2025-05-01 08:17:47,880 INFO spawned: 'queue-worker' with pid 35
+2025-05-01 08:17:48,023 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:17:48,025 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-05-01 08:17:48,033 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:17:49,035 INFO gave up: queue-worker entered FATAL state, too many start retries too quickly
+2025-05-01 08:18:52,091 WARN received SIGQUIT indicating exit request
+2025-05-01 08:18:52,091 INFO waiting for php-fpm to die
+2025-05-01 08:18:53,101 INFO stopped: php-fpm (exit status 0)
+2025-05-01 08:19:33,079 INFO supervisord started with pid 1
+2025-05-01 08:19:33,635 INFO spawned: 'horizon' with pid 7
+2025-05-01 08:19:33,637 INFO spawned: 'php-fpm' with pid 8
+2025-05-01 08:19:33,639 INFO spawned: 'queue-worker' with pid 9
+2025-05-01 08:19:33,773 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:19:34,983 INFO spawned: 'horizon' with pid 18
+2025-05-01 08:19:34,984 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:19:34,984 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:19:35,092 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:19:37,101 INFO spawned: 'horizon' with pid 21
+2025-05-01 08:19:37,221 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:19:40,236 INFO spawned: 'horizon' with pid 24
+2025-05-01 08:19:40,348 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:19:41,353 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-05-01 08:20:03,707 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:20:04,711 INFO spawned: 'queue-worker' with pid 27
+2025-05-01 08:20:05,715 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:20:35,528 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:20:36,532 INFO spawned: 'queue-worker' with pid 33
+2025-05-01 08:20:37,537 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:21:07,344 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:21:08,347 INFO spawned: 'queue-worker' with pid 38
+2025-05-01 08:21:09,349 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:21:22,390 WARN received SIGQUIT indicating exit request
+2025-05-01 08:21:22,390 INFO waiting for php-fpm, queue-worker to die
+2025-05-01 08:21:25,400 INFO waiting for php-fpm, queue-worker to die
+2025-05-01 08:21:28,405 INFO waiting for php-fpm, queue-worker to die
+2025-05-01 08:22:08,935 INFO supervisord started with pid 1
+2025-05-01 08:22:09,945 INFO spawned: 'horizon' with pid 7
+2025-05-01 08:22:09,947 INFO spawned: 'php-fpm' with pid 8
+2025-05-01 08:22:09,950 INFO spawned: 'queue-worker' with pid 9
+2025-05-01 08:22:10,081 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:22:10,093 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:22:11,097 INFO spawned: 'horizon' with pid 18
+2025-05-01 08:22:11,098 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-05-01 08:22:11,100 INFO spawned: 'queue-worker' with pid 19
+2025-05-01 08:22:11,237 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:22:11,248 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:22:14,238 INFO spawned: 'horizon' with pid 26
+2025-05-01 08:22:14,240 INFO spawned: 'queue-worker' with pid 27
+2025-05-01 08:22:14,351 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:22:14,357 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:22:17,372 INFO spawned: 'horizon' with pid 34
+2025-05-01 08:22:17,374 INFO spawned: 'queue-worker' with pid 35
+2025-05-01 08:22:17,508 WARN exited: horizon (exit status 1; not expected)
+2025-05-01 08:22:17,510 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2025-05-01 08:22:17,516 WARN exited: queue-worker (exit status 1; not expected)
+2025-05-01 08:22:18,518 INFO gave up: queue-worker entered FATAL state, too many start retries too quickly
