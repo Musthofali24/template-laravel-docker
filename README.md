@@ -90,11 +90,9 @@ MAIL_FROM_ADDRESS=no-reply@cmms.local
 
 Supervisor akan menjalankan 3 service utama secara paralel:
 
-    php-fpm
-
-    php artisan queue:work
-
-    php artisan horizon
+-   php-fpm
+-   php artisan queue:work
+-   php artisan horizon
 
 Log Output:
 
