@@ -119,6 +119,6 @@ docker compose exec app php artisan optimize:clear
 MIT License – bebas digunakan dan dimodifikasi untuk kebutuhan proyek pribadi maupun komersial.
 ✨ Credits
 
-Dibuat dengan ❤️ oleh Ali Musthofa Baharudin
-Program Studi Teknologi Rekayasa Informatika Industri
+Dibuat dengan ❤️ oleh Ali Musthofa Baharudin <br>
+Program Studi Teknologi Rekayasa Informatika Industri <br>
 Politeknik Manufaktur Bandung – 2025
